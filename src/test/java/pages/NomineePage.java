@@ -57,7 +57,7 @@ public class NomineePage {
 	    WebElement up_load = wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//input[@type='file']")));
 
 	    ((JavascriptExecutor) driver).executeScript("arguments[0].style.display='block';", up_load);
-	    up_load.sendKeys("C:\\Users\\sayoojya\\OneDrive\\Desktop\\SDETCourse\\ICTAK_INTERNSHIP\\ictak_internship\\src\\test\\java\\utility\\intern-data.csv");
+	    up_load.sendKeys("C:\\Users\\sayoojya\\OneDrive\\Desktop\\SDETCourse\\ICTAK_INTERNSHIP\\ictak_internship\\src\\test\\resources\\intern-data.csv");
 	    
 	    
 	   //to  click upload button 
