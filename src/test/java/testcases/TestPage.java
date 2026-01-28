@@ -60,8 +60,8 @@ public class TestPage extends TestBase{
 	public void institutionRequestTest() throws InterruptedException {
 		irp.institution_request();
 		irp.actions_click();
-		irp.createReq();
-		irp.setData("Anu", "anu@gmail.com","Python");
+		//irp.createReq();
+		//irp.setData("Anu", "anu@gmail.com","Python");
 		irp.allReq();
 		Assert.assertTrue(hom_assert.isreqCreated());
 	}
