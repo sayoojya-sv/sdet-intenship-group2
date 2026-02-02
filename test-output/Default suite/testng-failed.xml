@@ -6,10 +6,9 @@
       <class name="testcases.TestPage">
         <methods>
           <include name="objInit"/>
+          <include name="tearDown"/>
           <include name="setUp"/>
-          <include name="nomineeTest"/>
-          <include name="faqTest"/>
-          <include name="logoutTest"/>
+          <include name="loginTest"/>
         </methods>
       </class> <!-- testcases.TestPage -->
     </classes>
